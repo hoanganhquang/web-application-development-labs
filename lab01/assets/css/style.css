@@ -1,0 +1,17 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.fakeimg {
+  height: 200px;
+  background-image: url(https://blog.webico.vn/wp-content/uploads/2019/12/HTML5-CSS3.jpg);
+  background-repeat: no-repeat;
+  background-size: 300px 200px;
+}
+
+table,
+th,
+td {
+  border: solid 1px black;
+}
