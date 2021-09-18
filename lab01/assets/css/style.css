@@ -1,17 +1,78 @@
 * {
   padding: 0px;
   margin: 0px;
+  font-family: "Roboto", sans-serif;
 }
 
 .fakeimg {
-  height: 200px;
-  background-image: url(https://blog.webico.vn/wp-content/uploads/2019/12/HTML5-CSS3.jpg);
+  height: 450px;
+  width: 300px;
+  background-image: url(https://images.unsplash.com/photo-1630476387426-52c6e0b14e50?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1534&q=80);
   background-repeat: no-repeat;
-  background-size: 300px 200px;
+  background-size: 300px 450px;
+  box-shadow: 5px 5px 5px black;
+  border-radius: 10px;
+}
+
+img {
+  margin-top: 20px;
+  height: 30px;
+  width: 30px;
 }
 
 table,
 th,
 td {
   border: solid 1px black;
+}
+
+.navbar-brand {
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.aboutMe {
+  font-weight: bold;
+  font-style: italic;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+.tt {
+  font-weight: bold;
+  font-style: italic;
+}
+
+.des li {
+  font-size: 18px;
+}
+
+.jumbotron.text-center {
+  height: 100px;
+  background-color: black;
+  margin-top: 30%;
+}
+
+.jumbotron.text-center li {
+  margin: 5px;
+  display: inline-block;
+}
+
+.des {
+  padding: 10px;
+  box-shadow: 3px 4px 10px black;
+  margin-bottom: 50px;
+  border-radius: 10px;
+}
+
+.title {
+  font-size: 45px;
+  font-weight: 900;
+  margin-bottom: 1px;
+}
+.title1 {
+  font-size: 40px;
 }
