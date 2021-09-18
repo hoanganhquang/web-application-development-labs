@@ -53,7 +53,7 @@ h2 {
 .jumbotron.text-center {
   height: 100px;
   background-color: black;
-  margin-top: 30%;
+  margin-top: 10%;
 }
 
 .jumbotron.text-center li {
@@ -72,4 +72,83 @@ h2 {
   font-size: 45px;
   font-weight: 900;
   margin-bottom: 1px;
+}
+
+.container {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.backHome {
+  margin-top: 30px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+table {
+  box-shadow: 3px 4px 10px black;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+th {
+  font-size: 20px;
+}
+
+#findVowel {
+  width: 30%;
+  box-shadow: 3px 4px 10px black;
+  border-radius: 10px;
+  padding: 30px;
+  margin-bottom: 50px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+#reverseNumber {
+  width: 30%;
+  box-shadow: 3px 4px 10px black;
+  border-radius: 10px;
+  padding: 30px;
+  margin-bottom: 50px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+#find {
+  margin-top: 10px;
+  height: 30px;
+  width: 60px;
+  cursor: pointer;
+  font-weight: 700;
+  background-color: white;
+  border-radius: 6px;
+  box-shadow: 2px 2px 7px black;
+}
+
+#find:hover {
+  background-color: rgb(118, 168, 209);
+  color: white;
+}
+
+#reverse {
+  margin-top: 10px;
+  height: 30px;
+  width: 60px;
+  cursor: pointer;
+  font-weight: 700;
+  background-color: white;
+  border-radius: 6px;
+  box-shadow: 2px 2px 7px black;
+}
+
+#reverse:hover {
+  background-color: rgb(118, 168, 209);
+  color: white;
 }
