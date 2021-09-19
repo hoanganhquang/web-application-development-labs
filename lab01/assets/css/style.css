@@ -102,7 +102,7 @@ th {
 }
 
 #findVowel {
-  width: 30%;
+  width: 50%;
   box-shadow: 3px 4px 10px black;
   border-radius: 10px;
   padding: 30px;
@@ -112,7 +112,7 @@ th {
 }
 
 #reverseNumber {
-  width: 30%;
+  width: 50%;
   box-shadow: 3px 4px 10px black;
   border-radius: 10px;
   padding: 30px;
@@ -138,7 +138,7 @@ th {
 }
 
 #reverse {
-  margin-top: 10px;
+  margin-top: 20px;
   height: 30px;
   width: 60px;
   cursor: pointer;
